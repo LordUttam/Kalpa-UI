@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/6d5bbe7895.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./variables.css">
+    <link rel="stylesheet" href="./docs.css">
+
+    <title>Kalpa | Docs</title>
+</head>
+
+<body>
+
+    <header class="header--std">
+        <nav class="nav--std">
+            <ul class="header__list--align-start">
+                <li class="header__logo"><img src="../assets/kalpa-purple.png" alt="Kalpa UI logo"></li>
+                <li class="header__title">
+                    <h2>Kalpa<span class="ui">UI</span></h2>
+                </li>
+            </ul>
+            <ul class="header__list--align-end">
+                <li class="header__btn"><a href="https://github.com/LordUttam/Kalpa-UI" target="_blank"><i
+                            class="fa fa-github"></i></a></li>
+                <li class="header__btn"><a href="https://www.linkedin.com/in/uttam-sharma-55a588178/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+                <li class="header__btn"><i class="bx bx-moon"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-layout">
+        <nav class="drawer__sidebar--perm">
+            <div class="drawer__headings">
+                <h1>Components</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="#alert">
+                        <span class="title">Alert</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#avatar">
+                        <span class="title">Avatar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#badge">
+                        <span class="title">Badge</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#button">
+                        <span class="title">Button</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#card">
+                        <span class="title">Cards</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#image">
+                        <span class="title">Image</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#input">
+                        <span class="title">Input</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+
+        <main class="main">
+            <h1 class="main__heading" id="alert">
+                Alert
+            </h1>
+            <article class="main__content">
+                <p>
+                    Alert can be used to provide contextual feedback messages for user actions.
+                    Use .alert to import the base styles of alert.
+                    Combine with modifier classname (ex: alert--success) to get the desired alert type.
+                </p>
+                <div class="component-div alert-component">
+                    <div class="alert alert--primary">
+                        <p class="alert__text">
+                            A primary alert.
+                        </p>
+                    </div>
+                    <div class="alert alert--outline">
+                        <p class="alert__text">
+                            An outline alert.
+                        </p>
+                    </div>
+                    <div class="alert alert--warning">
+                        <p class="alert__text">
+                            A warning alert.
+                        </p>
+                    </div>
+                    <div class="alert alert--error">
+                        <p class="alert__text">
+                            An error alert.
+                        </p>
+                    </div>
+                    <div class="alert alert--success">
+                        <p class="alert__text">
+                            A success alert.
+                        </p>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert--primary%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522alert__text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520A%2520primary%2520alert.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert--outline%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522alert__text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520An%2520outline%2520alert.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert--warning%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert__text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520A%2520warning%2520alert.%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert--error%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert__text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520An%2520error%2520alert.%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert--success%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert__text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520A%2520success%2520alert.%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 719px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+
+
+            <h1 class="main__heading" id="avatar">
+                Avatar
+            </h1>
+            <article class="main__content">
+                <p>
+                    Avatars are user profile pictures, usually found in circular shapes.
+                    Avatars can be used for 'container' objects i.e.
+                    projects, spaces, repositories, etc. — to give them a recognisable visual identity.
+                    Combine with modifier classname (ex: avatar--lg) to get the desired avatar size.
+                </p>
+                <div class="main__sub-heading">
+                    <h2>
+                        Avatar with text
+                    </h2>
+                </div>
+                <p>A text avatar can be created using a div tag with the text written in the tag.</p>
+                <div class="component-div">
+                    <div class="avatar avatar--lg">
+                        US
+                    </div>
+                    <div class="avatar avatar--md">
+                        US
+                    </div>
+                    <div class="avatar avatar--sm">
+                        US
+                    </div>
+                    <div class="avatar avatar--xs">
+                        US
+                    </div>
+
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar--lg%2522%253E%250A%2520%2520%2520%2520US%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar--md%2522%253E%250A%2520%2520%2520%2520US%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar--sm%2522%253E%250A%2520%2520%2520%2520US%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar--xs%2522%253E%250A%2520%2520%2520%2520US%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 433px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="main__sub-heading">
+                    <h2>
+                        Avatar with image
+                    </h2>
+                </div>
+                <p> You can create an image avatar with same procedure i.e. by adding class names in image tag itself.
+                </p>
+                <div class="component-div">
+                    <img src="../assets/avatar.jpeg" alt="extra large avatar" class="avatar avatar--lg">
+                    <img src="../assets/avatar.jpeg" alt="medium avatar" class="avatar avatar--md">
+                    <img src="../assets/avatar.jpeg" alt="small avatar" class="avatar avatar--sm">
+                    <img src="../assets/avatar.jpeg" alt="extra small avatar" class="avatar avatar--xs">
+                </div>
+
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252Fassets%252Favatar.jpeg%2522%2520alt%253D%2522extra%2520large%2520avatar%2522%2520class%253D%2522avatar%2520avatar--lg%2522%253E%250A%253Cimg%2520src%253D%2522..%252Fassets%252Favatar.jpeg%2522%2520alt%253D%2522medium%2520avatar%2522%2520class%253D%2522avatar%2520avatar--md%2522%253E%250A%253Cimg%2520src%253D%2522..%252Fassets%252Favatar.jpeg%2522%2520alt%253D%2522small%2520avatar%2522%2520class%253D%2522avatar%2520avatar--sm%2522%253E%250A%253Cimg%2520src%253D%2522..%252Fassets%252Favatar.jpeg%2522%2520alt%253D%2522extra%2520small%2520avatar%2522%2520class%253D%2522avatar%2520avatar--xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <script src="../javascript/docs.js"></script>
+</body>
+
+</html>

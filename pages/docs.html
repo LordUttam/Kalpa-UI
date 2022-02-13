@@ -345,7 +345,6 @@
                         </iframe>
                     </div>
                 </div>
-
             </article>
 
             <h1 class="main__heading" id="button">
@@ -474,9 +473,248 @@
                 </div>
             </article>
 
+            <h1 class="main__heading" id="card">
+                Cards
+            </h1>
+            <article class="main__content">
+                <p>
+                    Cards contain content and actions about a single subject.
+                    Cards are surfaces that display content and actions on a single topic.
+                    They should be easy to scan for relevant and actionable information.
+                    Elements, like text and images,
+                    should be placed on them in a way that clearly indicates hierarchy.
+                </p>
+
+                <div class="main__sub-heading">
+                    <h2>
+                        Basic Vertical card
+                    </h2>
+                </div>
+                <p>A basic card may contain product image, product name, company name,
+                    description of products, and some buttons.
+                    You can use card for card layout and for components use card__image,
+                    card__header (includes card__title and card__subtitle), card__actions etc. classes as shown below.
+                </p>
+                <div class="component-div">
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="../assets/tshirt.jpeg" ]>
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Round neck T-Shirt</h2>
+                            <h3 class="card__subtitle font--gray">by Teesonly</h3>
+                        </div>
+
+                        <p class="card__text">
+                            $25
+                        </p>
+
+                        <div class="card__actions btn__container">
+                            <button class="btn btn--primary">Buy Now</button>
+                            <button class="btn btn--outline">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Ftshirt.jpeg%2522%2520%255D%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card__title%2522%253ERound%2520neck%2520tshirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card__subtitle%2520font--gray%2522%253Eby%2520Teesonly%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__actions%2520btn__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 455px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="main__sub-heading">
+                    <h2>
+                        Horizontal cards
+                    </h2>
+                </div>
+                <p>We can add a badge to the card using card__badge class.</p>
+                <div class="component-div">
+                    <div class="card card--horizontal">
+                        <div class="card__image">
+                            <img src="../assets/tshirt.jpeg" ]>
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Round neck T-Shirt</h2>
+                            <h3 class="card__subtitle font--gray">by Teesonly</h3>
+                        </div>
+
+                        <div class="card__actions btn__container">
+                            <button class="btn btn--primary">Buy Now</button>
+                            <button class="btn btn--outline">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card--horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Ftshirt.jpeg%2522%2520%255D%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card__title%2522%253ERound%2520neck%2520tshirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card__subtitle%2520font--gray%2522%253Eby%2520Teesonly%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__actions%2520btn__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 455px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+
+                <div class="main__sub-heading">
+                    <h2>
+                        Cards with badges
+                    </h2>
+                </div>
+                <p>We can add a badge to the card using card__badge class.</p>
+                <div class="component-div">
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="../assets/tshirt.jpeg" ]>
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Round neck T-Shirt</h2>
+                            <h3 class="card__subtitle font--gray">by Teesonly</h3>
+                        </div>
+
+                        <p class="card__text">
+                            $25
+                        </p>
+
+                        <div class="card__actions btn__container">
+                            <button class="btn btn--primary">Buy Now</button>
+                            <button class="btn btn--outline">Add to cart</button>
+                        </div>
+
+                        <span class="card__badge">New!</span>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Ftshirt.jpeg%2522%2520%255D%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card__title%2522%253ERound%2520neck%2520tshirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card__subtitle%2520font--gray%2522%253Eby%2520Teesonly%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__actions%2520btn__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522card__badge%2522%253ENew%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 477px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="main__sub-heading">
+                    <h2>
+                        Card with dismiss
+                    </h2>
+                </div>
+                <p>We can add a dismiss action to the card using card__dismiss class.</p>
+                <div class="component-div">
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="../assets/tshirt.jpeg" ]>
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Round neck T-Shirt</h2>
+                            <h3 class="card__subtitle font--gray">by Teesonly</h3>
+                        </div>
+
+                        <p class="card__text">
+                            $25
+                        </p>
+
+                        <div class="card__actions btn__container">
+                            <button class="btn btn--primary">Buy Now</button>
+                            <button class="btn btn--outline">Add to cart</button>
+                        </div>
+                        <span class="card__dismiss">X</span>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Ftshirt.jpeg%2522%2520%255D%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card__title%2522%253ERound%2520neck%2520tshirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card__subtitle%2520font--gray%2522%253Eby%2520Teesonly%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__actions%2520btn__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522card__dismiss%2522%253EX%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 477px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="main__sub-heading">
+                    <h2>
+                        Card with overlay
+                    </h2>
+                </div>
+                <p>We can add a overlay action to the card using card__overlay class.</p>
+                <div class="component-div">
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="../assets/tshirt.jpeg" ]>
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Round neck T-Shirt</h2>
+                            <h3 class="card__subtitle font--gray">by Teesonly</h3>
+                        </div>
+
+                        <p class="card__text">
+                            $25
+                        </p>
+
+                        <div class="card__actions btn__container">
+                            <button class="btn btn--primary">Buy Now</button>
+                            <button class="btn btn--outline">Add to cart</button>
+                        </div>
+                        <div class="card__overlay">Out of stock</div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card__title%2522%253ERound%2520neck%2520tshirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card__subtitle%2520font--gray%2522%253Eby%2520Teesonly%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__actions%2520btn__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522card__overlay%2522%253EOut%2520of%2520Stock%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 411px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="main__sub-heading">
+                    <h2>
+                        Card with only text
+                    </h2>
+                </div>
+                <p>A text only card will contain only texts like product name , description etc, it will not contain any
+                    images.
+                    You can use card-container for card layout and for components use card-author, card-content etc.
+                    classes as shown below.</p>
+                <div class="component-div">
+                    <div class="card">
+                        <div class="card__header">
+                            <h2 class="card__title">Round neck T-Shirt</h2>
+                            <h3 class="card__subtitle font--gray">by Teesonly</h3>
+                        </div>
+
+                        <p class="card__text">
+                            $25
+                        </p>
+
+                        <div class="card__actions btn__container">
+                            <button class="btn btn--primary">Buy Now</button>
+                            <button class="btn btn--outline">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card__title%2522%253ERound%2520neck%2520tshirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card__subtitle%2520font--gray%2522%253Eby%2520Teesonly%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__actions%2520btn__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 633px; height: 389px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+            </article>
         </main>
     </div>
- 
 
     <script src="../javascript/docs.js"></script>
 </body>

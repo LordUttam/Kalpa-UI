@@ -1,0 +1,72 @@
+.badge-container {
+    width: fit-content;
+    position: relative;
+    gap: 1rem;
+}
+
+.badge-container i {
+    font-size: 2rem;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 2px;
+
+    color: var(--base-color);
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.badge--top-right {  
+    bottom: .5rem;
+    right: -1rem;
+}
+
+.badge--large {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.badge--small {
+    height: 1rem;
+    width: 1rem;
+}
+
+.badge--large .badge__text {
+    bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.badge--left {
+    bottom: 1rem;
+    left: -1rem;
+}
+
+button .badge--top-left {
+    bottom: 20px;
+    right: 3.5rem;
+}
+
+button .badge--top-right {
+    bottom: 22px;
+    right: -10px;
+}
+
+button {
+    width: fit-content;
+    border-radius: 8px;
+    border: none;
+    padding: .5rem 1rem;
+    background: var(--primary-color);
+    color: white;
+}
+
+button .badge__text {
+    bottom: 2px;
+}
+

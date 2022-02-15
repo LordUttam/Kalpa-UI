@@ -236,7 +236,7 @@ body {
   flex-direction: column;
   gap: 0.5rem;
 }
-======= html,
+
 body {
   font-family: Roboto, sans-serif;
   overflow-anchor: none;
@@ -321,7 +321,7 @@ body {
   font-size: 1rem;
   line-height: 1.375rem;
   font-weight: 600;
-  padding: 0.5rem 4px;
+  padding: 0.5rem 0.25rem;
 }
 
 .main {
@@ -342,7 +342,6 @@ body {
 }
 
 .main__heading h1 {
-  margin: 0px;
   margin-left: 1rem;
 }
 
@@ -355,7 +354,6 @@ body {
 }
 
 .main__sub-heading h2 {
-  margin: 0px;
   margin-left: 1rem;
 }
 

@@ -1,0 +1,43 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__container--row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  outline: none;
+  border: 1px solid var(--neutral-color);
+  border-radius: 2px;
+}
+
+.label--text {
+  color: var(--neutral-color);
+}
+
+.input--success {
+  color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.input--error {
+  color: var(--error-color);
+  border-color: var(--error-color);
+}
+
+.input--success + .input__message {
+  color: var(--success-color);
+  font-weight: bold;
+}
+
+.input--error + .input__message {
+  color: var(--error-color);
+  font-weight: bold;
+}

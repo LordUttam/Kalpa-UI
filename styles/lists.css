@@ -1,0 +1,38 @@
+.list--spaced {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 1rem;
+}
+
+.list--spaced li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.list--spaced li::before {
+  content: "\2022";
+  color: var(--primary-color);
+  font-weight: 900;
+  display: inline-block;
+  width: 1rem;
+}
+
+.list--stacked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.list--stacked li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.list--stacked li:hover {
+  background-color: var(--secondary-bg-color);
+}

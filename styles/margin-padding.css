@@ -1,0 +1,424 @@
+/* Margin */
+
+.m--0 {
+  margin: 0;
+}
+
+.m--0-5 {
+  margin: 0.5rem;
+}
+
+.m--1 {
+  margin: 1rem;
+}
+
+.m--1-5 {
+  margin: 1.5rem;
+}
+
+.m--2 {
+  margin: 2rem;
+}
+
+.m--2-5 {
+  margin: 2.5rem;
+}
+
+.m--3 {
+  margin: 3rem;
+}
+
+.m--4 {
+  margin: 4rem;
+}
+
+/* Margin Y */
+
+.m--y-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.m--y-0-5 {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.m--x-0-5 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.m--y-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.m--y-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.m--y-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.m--y-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* Margin X */
+
+.m--x-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.m--x-0-5 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.m--x-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.m--x-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.m--x-3 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.m--x-4 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+/* Margin auto */
+
+.m--auto {
+  margin: auto;
+}
+
+.m--auto-0 {
+  margin: auto 0;
+}
+
+.m--0-auto {
+  margin: 0 auto;
+}
+
+/* top right bottom left */
+
+.m--t-0 {
+  margin-top: 0;
+}
+
+.m--r-0 {
+  margin-right: 0;
+}
+
+.m--b-0 {
+  margin-bottom: 0;
+}
+
+.m--l-0 {
+  margin-left: 0;
+}
+
+.m--t--0-5 {
+  margin-top: 0.5rem;
+}
+
+.m--r--0-5 {
+  margin-right: 0.5rem;
+}
+
+.m--b--0-5 {
+  margin-bottom: 0.5rem;
+}
+
+.m--l--0-5 {
+  margin-left: 0.5rem;
+}
+
+.m--t-1 {
+  margin-top: 1rem;
+}
+
+.m--r-1 {
+  margin-right: 1rem;
+}
+
+.m--b-1 {
+  margin-bottom: 1rem;
+}
+
+.m--l-1 {
+  margin-left: 1rem;
+}
+
+.m--t-2 {
+  margin-top: 2rem;
+}
+
+.m--r-2 {
+  margin-right: 2rem;
+}
+
+.m--b-2 {
+  margin-bottom: 2rem;
+}
+
+.m--l-2 {
+  margin-left: 2rem;
+}
+
+.m--t-3 {
+  margin-top: 3rem;
+}
+
+.m--r-3 {
+  margin-right: 3rem;
+}
+
+.m--b-3 {
+  margin-bottom: 3rem;
+}
+
+.m--l-3 {
+  margin-left: 3rem;
+}
+
+.m--t-4 {
+  margin-top: 4rem;
+}
+
+.m--r-4 {
+  margin-right: 4rem;
+}
+
+.m--b-4 {
+  margin-bottom: 4rem;
+}
+
+.m--l-4 {
+  margin-left: 4rem;
+}
+
+/* Padding */
+
+.p--0 {
+  padding: 0;
+}
+
+.p--0-5 {
+  padding: 0.5rem;
+}
+
+.p--1 {
+  padding: 1rem;
+}
+
+.p--1-5 {
+  padding: 1.5rem;
+}
+
+.p--2 {
+  padding: 2rem;
+}
+
+.p--2-5 {
+  padding: 2.5rem;
+}
+
+.p--3 {
+  padding: 3rem;
+}
+
+.p--4 {
+  padding: 4rem;
+}
+
+/* Padding Y */
+
+.p--y-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.p--x-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.p--y-0-5 {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.p--x-0-5 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.p--y-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.p--y-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.p--y-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.p--y-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Padding X */
+
+.p--x-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.p--x-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.p--x-3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.p--x-4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* Padding auto */
+
+.p--auto {
+  padding: auto;
+}
+
+.p--auto-0 {
+  padding: auto 0;
+}
+
+.p--0-auto {
+  padding: 0 auto;
+}
+
+/* top right bottom left padding */
+
+.p--t-0 {
+  padding-top: 0;
+}
+
+.p--r-0 {
+  padding-right: 0;
+}
+
+.p--b-0 {
+  padding-bottom: 0;
+}
+
+.p--l-0 {
+  padding-left: 0;
+}
+
+.p--t--0-5 {
+  padding-top: 0.5rem;
+}
+
+.p--r--0-5 {
+  padding-right: 0.5rem;
+}
+
+.p--b--0-5 {
+  padding-bottom: 0.5rem;
+}
+
+.p--l--0-5 {
+  padding-left: 0.5rem;
+}
+
+.p--t-1 {
+  padding-top: 1rem;
+}
+
+.p--r-1 {
+  padding-right: 1rem;
+}
+
+.p--b-1 {
+  padding-bottom: 1rem;
+}
+
+.p--l-1 {
+  padding-left: 1rem;
+}
+
+.p--t-2 {
+  padding-top: 2rem;
+}
+
+.p--r-2 {
+  padding-right: 2rem;
+}
+
+.p--b-2 {
+  padding-bottom: 2rem;
+}
+
+.p--l-2 {
+  padding-left: 2rem;
+}
+
+.p--t-3 {
+  padding-top: 3rem;
+}
+
+.p--r-3 {
+  padding-right: 3rem;
+}
+
+.p--b-3 {
+  padding-bottom: 3rem;
+}
+
+.p--l-3 {
+  padding-left: 3rem;
+}
+
+.p--t-4 {
+  padding-top: 4rem;
+}
+
+.p--r-4 {
+  padding-right: 4rem;
+}
+
+.p--b-4 {
+  padding-bottom: 4rem;
+}
+
+.p--l-4 {
+  padding-left: 4rem;
+}

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./variables.css">
-    <link rel="stylesheet" href="./docs.css">
+    <link rel="stylesheet" href="../styles/docs.css">
 
     <title>Kalpa | Docs</title>
 </head>
@@ -22,13 +22,15 @@
 <body>
 
     <header class="header--std">
-        <nav class="nav--std">
-            <ul class="header__list--align-start">
-                <li class="header__logo"><img src="../assets/kalpa-purple.png" alt="Kalpa UI logo"></li>
-                <li class="header__title">
-                    <h2>Kalpa<span class="ui">UI</span></h2>
-                </li>
-            </ul>
+        <nav class="nav--std p--1">
+            <a href="./index.html">
+                <ul class="header__list--align-start">
+                    <li class="header__logo p--0 m--0"><img src="../assets/kalpa-purple.png" alt="Kalpa UI logo"></li>
+                    <li class="header__title">
+                        <h2>Kalpa<span class="ui">UI</span></h2>
+                    </li>
+                </ul>
+            </a>
             <ul class="header__list--align-end">
                 <li class="header__btn"><a href="https://github.com/LordUttam/Kalpa-UI" target="_blank"><i
                             class="fa fa-github"></i></a></li>
@@ -45,47 +47,47 @@
                 <h1>Components</h1>
             </div>
             <ul>
-                <li>
+                <li p__l--0-5>
                     <a href="#alert">
                         <span class="title">Alert</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#avatar">
                         <span class="title">Avatar</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#badge">
                         <span class="title">Badge</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#button">
                         <span class="title">Button</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#card">
                         <span class="title">Cards</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#image">
                         <span class="title">Image</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#input">
                         <span class="title">Input</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#typography">
                         <span class="title">Typography</span>
                     </a>
                 </li>
-                <li>
+                <li p__l--0-5>
                     <a href="#lists">
                         <span class="title">Lists</span>
                     </a>
@@ -96,7 +98,7 @@
 
 
         <main class="main">
-            <h1 class="main__heading" id="alert">
+            <h1 class="main__heading p--1" id="alert">
                 Alert
             </h1>
             <article class="main__content">
@@ -105,7 +107,7 @@
                     Use .alert to import the base styles of alert.
                     Combine with modifier classname (ex: alert--success) to get the desired alert type.
                 </p>
-                <div class="component-div alert-component">
+                <div class="component-div p--1 m--2 alert-component">
                     <div class="alert alert--primary">
                         <p class="alert__text">
                             A primary alert.
@@ -144,7 +146,7 @@
             </article>
 
 
-            <h1 class="main__heading" id="avatar">
+            <h1 class="main__heading p--1" id="avatar">
                 Avatar
             </h1>
             <article class="main__content">
@@ -154,13 +156,13 @@
                     projects, spaces, repositories, etc. — to give them a recognisable visual identity.
                     Combine with modifier classname (ex: avatar--lg) to get the desired avatar size.
                 </p>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Avatar with text
                     </h2>
                 </div>
                 <p>A text avatar can be created using a div tag with the text written in the tag.</p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="avatar avatar--lg">
                         US
                     </div>
@@ -185,14 +187,14 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Avatar with image
                     </h2>
                 </div>
                 <p> You can create an image avatar with same procedure i.e. by adding class names in image tag itself.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <img src="../assets/avatar.jpeg" alt="extra large avatar" class="avatar avatar--lg">
                     <img src="../assets/avatar.jpeg" alt="medium avatar" class="avatar avatar--md">
                     <img src="../assets/avatar.jpeg" alt="small avatar" class="avatar avatar--sm">
@@ -210,14 +212,14 @@
                 </div>
             </article>
 
-            <h1 class="main__heading" id="badge">
+            <h1 class="main__heading p--1" id="badge">
                 Badge
             </h1>
             <article class="main__content">
                 <p>Badges are generally used to display the notification count or status information.
                     It may be positioned top-right or bottom-right of the image/icon.</p>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>Number Badges</h2>
                 </div>
 
@@ -227,7 +229,7 @@
                     badge--left, badge--top-right and badge--top-left (e.g. class="badge badge--top-left") as shown
                     below</p>
 
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <p class="badge-container">
                         Text with a badge
                         <span class="badge badge--small badge--top-right">
@@ -247,7 +249,7 @@
                     </div>
                 </div>
 
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <p class="badge-container">
                         Text with a large badge
                         <span class="badge badge--large badge--top-right">
@@ -267,7 +269,7 @@
                     </div>
                 </div>
 
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <p class="badge-container">
                         Text with a badge on left
                         <span class="badge badge--large badge--left">
@@ -287,7 +289,7 @@
                     </div>
                 </div>
 
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <p>
                         Button with a badge on the left
                         <button class="badge-container">
@@ -310,7 +312,7 @@
                     </div>
                 </div>
 
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <p>
                         Button toggles badge visibility
                         <button class="badge-container hide-badge">
@@ -333,7 +335,7 @@
                     </div>
                 </div>
 
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <p>
                         Icon with a badge
                         <span class="badge-container">
@@ -357,14 +359,14 @@
                 </div>
             </article>
 
-            <h1 class="main__heading" id="button">
+            <h1 class="main__heading p--1" id="button">
                 Button
             </h1>
             <article class="main__content">
                 <p>A button is one of the most important part of a website or app.
                     It is the thing on which user will click to do perform action. Hence also called CTA. The base
                     styles for button are in class btn.</p>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Primary button
                     </h2>
@@ -373,7 +375,7 @@
                     Primary button is the main button which performs primary actions of your app. You can use btn for
                     button and for particular button use btn--primary to use it, as shown below.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <button class="btn btn--primary">Primary Button</button>
                 </div>
                 <div class="component-code">
@@ -386,7 +388,7 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Primary outline button
                     </h2>
@@ -397,7 +399,7 @@
                     You can use btn for
                     button and for outline button use btn--outline, as shown below.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <button class="btn btn--outline">Primary outline Button</button>
                 </div>
                 <div class="component-code">
@@ -410,7 +412,7 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Link button
                     </h2>
@@ -419,7 +421,7 @@
                     Link button is used in places you want a button it is not a primary action and it links to a
                     different page or section.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <button class="btn btn--link">Link Button</button>
                 </div>
                 <div class="component-code">
@@ -432,7 +434,7 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Button with icon
                     </h2>
@@ -440,7 +442,7 @@
                 <p>
                     Many times we use an icon inside button. This can simply be done by placing icon in the button tags.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <button class="btn btn--primary">
                         <i class="fa fa-github"></i>
                         Button with icon
@@ -456,7 +458,7 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Floating action button
                     </h2>
@@ -467,7 +469,7 @@
                     typically as a circular shape with an icon in its center.
                     You can use btn--float as shown below.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <button class="btn btn--float">
                         +
                     </button>
@@ -483,7 +485,7 @@
                 </div>
             </article>
 
-            <h1 class="main__heading" id="card">
+            <h1 class="main__heading p--1" id="card">
                 Cards
             </h1>
             <article class="main__content">
@@ -495,7 +497,7 @@
                     should be placed on them in a way that clearly indicates hierarchy.
                 </p>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Basic Vertical card
                     </h2>
@@ -505,7 +507,7 @@
                     You can use card for card layout and for components use card__image,
                     card__header (includes card__title and card__subtitle), card__actions etc. classes as shown below.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="card">
                         <div class="card__image">
                             <img src="../assets/tshirt.jpeg" ]>
@@ -536,13 +538,13 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Horizontal cards
                     </h2>
                 </div>
                 <p>We can add a badge to the card using card__badge class.</p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="card card--horizontal">
                         <div class="card__image">
                             <img src="../assets/tshirt.jpeg" ]>
@@ -571,13 +573,13 @@
                 </div>
 
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Cards with badges
                     </h2>
                 </div>
                 <p>We can add a badge to the card using card__badge class.</p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="card">
                         <div class="card__image">
                             <img src="../assets/tshirt.jpeg" ]>
@@ -610,13 +612,13 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Card with dismiss
                     </h2>
                 </div>
                 <p>We can add a dismiss action to the card using card__dismiss class.</p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="card">
                         <div class="card__image">
                             <img src="../assets/tshirt.jpeg" ]>
@@ -648,13 +650,13 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Card with overlay
                     </h2>
                 </div>
                 <p>We can add a overlay action to the card using card__overlay class.</p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="card">
                         <div class="card__image">
                             <img src="../assets/tshirt.jpeg" ]>
@@ -686,7 +688,7 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Card with only text
                     </h2>
@@ -695,7 +697,7 @@
                     images.
                     You can use card-container for card layout and for components use card-author, card-content etc.
                     classes as shown below.</p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="card">
                         <div class="card__header">
                             <h2 class="card__title">Round neck T-Shirt</h2>
@@ -723,7 +725,7 @@
                 </div>
             </article>
 
-            <h1 class="main__heading" id="image">
+            <h1 class="main__heading p--1" id="image">
                 Image
             </h1>
             <article class="main__content">
@@ -731,7 +733,7 @@
                     Images are the most important component of a website as they attract the user's attention and,
                     therefore, should be responsive.
                 </p>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Responsive Image
                     </h2>
@@ -741,7 +743,7 @@
                     The width and height scale down depending on the size of the parent.
                     Resize the container below to see how it works.
                 </p>
-                <div class="component-div img-component">
+                <div class="component-div p--1 m--2 img-component">
                     <img src="../assets/happy.jpg" alt="A responsive image" class="img--responsive">
                 </div>
                 <div class="component-code">
@@ -753,7 +755,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Round Image
                     </h2>
@@ -761,7 +763,7 @@
                 <p>
                     Add the class img--round to make an image round. It will maintain its aspect ratio.
                 </p>
-                <div class="component-div img-component">
+                <div class="component-div p--1 m--2 img-component">
                     <img src="../assets/happy.jpg" alt="A responsive image" class="img--responsive img--round">
                 </div>
                 <div class="component-code">
@@ -776,7 +778,7 @@
 
             </article>
 
-            <h1 class="main__heading" id="input">
+            <h1 class="main__heading p--1" id="input">
                 Input
             </h1>
             <article class="main__content">
@@ -784,7 +786,7 @@
                     Inputs allow users to enter information and they can be of different types - text, number, password,
                     email, submit, etc.
                 </p>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Text Input
                     </h2>
@@ -793,7 +795,7 @@
                     Textbox inputs are generally used in forms for the entry of the data.
                     This is the normal textbox where user will enter the details like name etc.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="input__container">
                         <label class="label--text">Label</label>
                         <input class="input input--text" type="text" placeholder="Enter your name">
@@ -808,7 +810,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Text Input with inline label
                     </h2>
@@ -817,7 +819,7 @@
                     Adding a class in container element input input__container--row will make the input and label appear
                     in single line.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="input__container--row">
                         <label class="label--text">Label</label>
                         <input class="input input--text" type="text" placeholder="Enter your name">
@@ -832,7 +834,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Successful Input
                     </h2>
@@ -841,7 +843,7 @@
                     If the user enters correct data, successful input can be shown by adding input--success class.
                     This will also make the input__message element directly next to it appear in success color.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="input__container">
                         <label class="label--text">Label</label>
                         <input class="input input--text input--success type=" text" placeholder="Enter your name">
@@ -858,7 +860,7 @@
                     </div>
                 </div>
 
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Error Input
                     </h2>
@@ -868,7 +870,7 @@
                     class.
                     This will also make the input__message element directly next to it appear in error color.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <div class="input__container">
                         <label class="label--text">Label</label>
                         <input class="input input--text input--error type=" text" placeholder="Enter your name">
@@ -887,14 +889,14 @@
             </article>
 
 
-            <h1 class="main__heading" id="typography">
+            <h1 class="main__heading p--1" id="typography">
                 Typography
             </h1>
             <article class="main__content">
                 <p>
                     Typographies are utility classes used for designing fonts and text.
                 </p>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Headings
                     </h2>
@@ -903,7 +905,7 @@
                     We have five sizes of headings. Use h--1, h--2 etc. along with the base class
                     heading.
                 </p>
-                <div class="component-div typography-component">
+                <div class="component-div p--1 m--2 typography-component">
                     <div class="heading h--1">Heading 1</div>
                     <div class="heading h--2">Heading 2</div>
                     <div class="heading h--3">Heading 3</div>
@@ -919,7 +921,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Text
                     </h2>
@@ -928,7 +930,7 @@
                     The text in your website can use .text base class and .text--md, .text--lg, .text--xs etc.
                     modifier classes for changing the size of text.
                 </p>
-                <div class="component-div typography-component">
+                <div class="component-div p--1 m--2 typography-component">
                     <p class="text text--lg">Large text</p>
                     <p class="text text--md">Medium text</p>
                     <p class="text text--sm">Small text</p>
@@ -943,7 +945,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Font weights
                     </h2>
@@ -952,7 +954,7 @@
                     KalpaUI provides three other font weights which can be applied using classes
                     .text--light, .text--sbold and .text--bold.
                 </p>
-                <div class="component-div typography-component">
+                <div class="component-div p--1 m--2 typography-component">
                     <p class="text text--md text--light">Light text</p>
                     <p class="text text--md text--sbold">Semi bold text</p>
                     <p class="text text--md text--bold">Bold text</p>
@@ -966,7 +968,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Text colors
                     </h2>
@@ -976,7 +978,7 @@
                     And if you have a dark background, you might want to use white text for which you can use
                     text--white class.
                 </p>
-                <div class="component-div typography-component">
+                <div class="component-div p--1 m--2 typography-component">
                     <p class="text text--lg text--sbold text--gray">Gray text</p>
                     <p class="text text--lg text--sbold bg--dark text--white">White text</p>
                 </div>
@@ -992,14 +994,14 @@
 
             </article>
 
-            <h1 class="main__heading" id="lists">
+            <h1 class="main__heading p--1" id="lists">
                 Lists
             </h1>
             <article class="main__content">
                 <p>
                     List is a component that displays collection of information vertically.
                 </p>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Spaced List
                     </h2>
@@ -1008,7 +1010,7 @@
                     This is the default list that displays data with some space in between the list items.
                     Use the class list--spaced for a spaced list component.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <ul class="list--spaced">
                         <p class="text--bold">Spaced List</p>
                         <li>List item 1</li>
@@ -1025,7 +1027,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="main__sub-heading">
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
                     <h2>
                         Stacked List
                     </h2>
@@ -1035,7 +1037,7 @@
                     Usually a stacked list's items are profiles or any items which correspond to an action.
                     Use the class list--stacked for a stacked list component.
                 </p>
-                <div class="component-div">
+                <div class="component-div p--1 m--2">
                     <ul class="list--stacked">
                         <p class="text text--bold">Stacked List</p>
                         <li>

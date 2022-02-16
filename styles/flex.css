@@ -34,7 +34,7 @@
   flex-wrap: no-wrap;
 }
 
-.flex__wrap--wrap-rev {
+.flex__wrap--rev {
   flex-wrap: wrap-reverse;
 }
 
@@ -88,8 +88,7 @@
 
 /* others */
 
-.center {
-  display: flex;
+.flex--center {
   justify-content: center;
   align-items: center;
 }

@@ -282,12 +282,6 @@ h2 {
   color: var(--accent-color);
 }
 
-body {
-  font-family: Roboto, sans-serif;
-  overflow-anchor: none;
-  width: 100%;
-}
-
 a {
   text-decoration: none;
 }

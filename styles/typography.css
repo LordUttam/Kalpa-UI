@@ -1,0 +1,93 @@
+.heading {
+  display: block;
+  margin-left: 1rem;
+  font-weight: bold;
+  max-width: 100%;
+}
+
+.h--1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.h--2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.h--3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.h--4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.h--5 {
+  font-size: 0.75rem;
+  line-height: 0.8rem;
+}
+
+.text {
+  display: block;
+  margin: 1rem;
+  font-weight: 400;
+}
+
+.text--lg {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.text--md {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text--sm {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text--xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--left {
+  text-align: left;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--light {
+  font-weight: 300;
+}
+
+.text--sbold {
+  font-weight: 500;
+}
+
+.text--bold {
+  font-weight: 700;
+}
+
+.text--gray {
+  color: var(--subtitle-color);
+}
+
+.text--white {
+  color: var(--base-color);
+}
+
+.bg--dark {
+  background-color: var(--neutral-color);
+}

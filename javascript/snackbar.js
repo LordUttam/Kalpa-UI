@@ -23,48 +23,48 @@ const cancelStacked = document.querySelector(
 
 leadingBtn.addEventListener("click", () => {
   for (let i of snackbar) {
-    i.classList.remove("snackbarActive");
+    i.classList.remove("snackbar--active");
     console.log(i);
   }
-  snackbarLeading.classList.add("snackbarActive");
+  snackbarLeading.classList.add("snackbar--active");
 });
 
 trailingBtn.addEventListener("click", () => {
   for (let i of snackbar) {
-    i.classList.remove("snackbarActive");
+    i.classList.remove("snackbar--active");
     console.log(i);
   }
-  snackbarTrailing.classList.add("snackbarActive");
+  snackbarTrailing.classList.add("snackbar--active");
 });
 
 baselineBtn.addEventListener("click", () => {
   for (let i of snackbar) {
-    i.classList.remove("snackbarActive");
+    i.classList.remove("snackbar--active");
     console.log(i);
   }
-  snackbarBaseline.classList.add("snackbarActive");
+  snackbarBaseline.classList.add("snackbar--active");
 });
 
 stackedBtn.addEventListener("click", () => {
   for (let i of snackbar) {
-    i.classList.remove("snackbarActive");
+    i.classList.remove("snackbar--active");
     console.log(i);
   }
-  snackbarStacked.classList.add("snackbarActive");
+  snackbarStacked.classList.add("snackbar--active");
 });
 
 cancelLeading.addEventListener("click", () => {
-  snackbarLeading.classList.remove("snackbarActive");
+  snackbarLeading.classList.remove("snackbar--active");
 });
 
 cancelTrailing.addEventListener("click", () => {
-  snackbarTrailing.classList.remove("snackbarActive");
+  snackbarTrailing.classList.remove("snackbar--active");
 });
 
 cancelBaseline.addEventListener("click", () => {
-  snackbarBaseline.classList.remove("snackbarActive");
+  snackbarBaseline.classList.remove("snackbar--active");
 });
 
 cancelStacked.addEventListener("click", () => {
-  snackbarStacked.classList.remove("snackbarActive");
+  snackbarStacked.classList.remove("snackbar--active");
 });

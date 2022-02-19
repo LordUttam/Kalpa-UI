@@ -11,7 +11,7 @@
   border-radius: 4px;
 }
 
-.snackbarActive {
+.snackbar--active {
   display: flex;
 }
 

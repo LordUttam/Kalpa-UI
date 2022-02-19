@@ -39,7 +39,7 @@ body {
   overflow-y: auto;
   margin: 2px;
   list-style: none;
-  max-height: calc(100vh - 3rem);
+  max-height: 70vh;
   overscroll-behavior: contain;
 }
 
@@ -94,8 +94,6 @@ body {
 }
 
 .main__heading {
-  /* margin: 1rem 0; */
-  /* padding: 1rem; */
   font-size: 2rem;
   background-color: var(--primary-color);
   color: var(--base-color);
@@ -107,8 +105,6 @@ body {
 }
 
 .main__sub-heading {
-  /* margin: 1rem 0; */
-  /* padding: 1rem; */
   font-size: 1.5rem;
   background-color: var(--secondary-bg-color);
   color: var(--neutral-color);
@@ -139,7 +135,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* padding: 1rem; */
 }
 
 .nav--std > a {

@@ -1,21 +1,22 @@
 :root {
-    --primary-color: #570df8;
-    --base-color: #FBFAFB;
-    --neutral-color: #1D1E2C;
-    --accent-color: #44FFD1;
+  --primary-color: #570df8;
+  --base-color: #fbfafb;
+  --neutral-color: #1d1e2c;
+  --accent-color: #44ffd1;
 
-    --secondary-bg-color: #D8E1FF;
+  --secondary-bg-color: #d8e1ff;
 
-    --hover-color: #e0e0e0;
+  --hover-color: #e0e0e0;
 
-    --subtitle-color: rgba(0,0,0,.3); 
-    --overlay-color: rgba(0,0,0,.3);
-    --disabled-gray-color: rgba(0,0,0,0.6);
+  --subtitle-color: rgba(0, 0, 0, 0.3);
+  --overlay-color: rgba(0, 0, 0, 0.3);
+  --disabled-gray-color: rgba(0, 0, 0, 0.6);
 
-    --primary-box-shadow: rgba(17, 20, 30, 0.6) 0px 7px 36px 4px;
-    --secondary-box-shadow: rgba(233, 230, 220, 0.8) 0px 7px 36px 4px;
+  --primary-box-shadow: rgba(17, 20, 30, 0.6) 0px 7px 36px 4px;
+  --secondary-box-shadow: rgba(233, 230, 220, 0.8) 0px 7px 36px 4px;
+  --primary-btn-shadow: 0px 15px 20px rgba(17, 20, 30, 0.2);
 
-    --success-color: #44FFD1;
-    --error-color: #dc3545;    
-    --warning-color: #ffcc00;
+  --success-color: #44ffd1;
+  --error-color: #dc3545;
+  --warning-color: #ffcc00;
 }

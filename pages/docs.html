@@ -92,6 +92,21 @@
                         <span class="title">Lists</span>
                     </a>
                 </li>
+                <li p__l--0-5>
+                    <a href="#ratings">
+                        <span class="title">Ratings</span>
+                    </a>
+                </li>
+                <li p__l--0-5>
+                    <a href="#snackbar">
+                        <span class="title">Snackbar</span>
+                    </a>
+                </li>
+                <li p__l--0-5>
+                    <a href="#topnav">
+                        <span class="title">Topnav</span>
+                    </a>
+                </li>
             </ul>
 
         </nav>
@@ -846,7 +861,7 @@
                 <div class="component-div p--1 m--2">
                     <div class="input__container">
                         <label class="label--text">Label</label>
-                        <input class="input input--text input--success type=" text" placeholder="Enter your name">
+                        <input class="input input--text input--success" type="text" placeholder="Enter your name">
                         <span class="input__message">Input Successful</span>
                     </div>
                 </div>
@@ -873,7 +888,7 @@
                 <div class="component-div p--1 m--2">
                     <div class="input__container">
                         <label class="label--text">Label</label>
-                        <input class="input input--text input--error type=" text" placeholder="Enter your name">
+                        <input class="input input--text input--error" type="text" placeholder="Enter your name">
                         <span class="input__message">Bad Input</span>
                     </div>
                 </div>
@@ -1065,10 +1080,152 @@
                 </div>
             </article>
 
+            <h1 class="main__heading p--1" id="ratings">
+                Ratings
+            </h1>
+            <article class="main__content">
+                <p>Ratings are used to give ratings to product image, product name, company name, description of
+                    products, some buttons and icons.
+
+                <p>You can use .rating class and .rating__unit as shown below. You can have any kind of icons as rating
+                    unit as long as you have two variations- outline and solid.</p>
+                <div class="component-div p--1 m--2">
+                    <div class="rating__container">
+                        <span class="rating__unit">
+                            <i class='bx bx-star rating__unit--ufill'></i>
+                            <i class='bx bxs-star rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-star rating__unit--ufill'></i>
+                            <i class='bx bxs-star rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-star rating__unit--ufill'></i>
+                            <i class='bx bxs-star rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-star rating__unit--ufill'></i>
+                            <i class='bx bxs-star rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-star rating__unit--ufill'></i>
+                            <i class='bx bxs-star rating__unit--fill'></i>
+                        </span>
+                    </div>
+                    <div class="rating__container">
+                        <span class="rating__unit">
+                            <i class='bx bx-lemon rating__unit--ufill'></i>
+                            <i class='bx bxs-lemon rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-lemon rating__unit--ufill'></i>
+                            <i class='bx bxs-lemon rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-lemon rating__unit--ufill'></i>
+                            <i class='bx bxs-lemon rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-lemon rating__unit--ufill'></i>
+                            <i class='bx bxs-lemon rating__unit--fill'></i>
+                        </span>
+                        <span class="rating__unit">
+                            <i class='bx bx-lemon rating__unit--ufill'></i>
+                            <i class='bx bxs-lemon rating__unit--fill'></i>
+                        </span>
+                    </div>
+                </div>
+
+            </article>
+
+            <h1 class="main__heading p--1" id="snackbar">
+                Snackbars
+            </h1>
+            <article class="main__content">
+                <p>Snackbars inform users of a process that an app has performed or will perform.
+                    They appear temporarily, towards the bottom of the screen. They shouldn’t
+                    interrupt the user experience, and they don’t require user input to disappear.</p>
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
+                    Simple Snackbar
+                </div>
+                <p>
+                    Simple snackbars can have three positions, bottom left, bottom center and bottom-right.
+                    Use snackbar--leading, snackbar--baseline, snackbar--trailing along with the base class snackbar
+                    adjust position. Normally their display is set to none. Add class .snackbar--active to make it
+                    appear.
+                    Click on the corresponding buttons to see snackbar position variants.
+                </p>
+                <div class="component-div p--1 m--2">
+                    <button id="leadingBtn" class="btn--primary">Snackbar Leading</button>
+                    <button id="baselineBtn" class="btn--primary">Snackbar Baseline</button>
+                    <button id="trailingBtn" class="btn--primary">Snackbar Trailing</button>
+
+
+                    <article class="snackbar snackbar--leading">
+                        <p class="snackbar__text">Can't send photos. Retry in 5 seconds.</p>
+                        <button class="snackbar__button">RETRY</button>
+                        <i class="snackbar__cancel">&#10006;</i>
+                    </article>
+
+                    <article class="snackbar snackbar--baseline">
+                        <p class="snackbar__text">Can't send photos. Retry in 5 seconds.</p>
+                        <button class="snackbar__button">RETRY</button>
+                        <i class="snackbar__cancel">&#10006;</i>
+                    </article>
+
+                    <article class="snackbar snackbar--trailing">
+                        <p class="snackbar__text">Can't send photos. Retry in 5 seconds.</p>
+                        <button class="snackbar__button">RETRY</button>
+                        <i class="snackbar__cancel">&#10006;</i>
+                    </article>
+                </div>
+
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Carticle%2520class%253D%2522snackbar%2520snackbar--leading%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar__text%2522%253ECan%27t%2520send%2520photos.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar__button%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522snackbar__cancel%2522%253E%2526%252310006%253B%253C%252Fi%253E%250A%253C%252Farticle%253E%250A%250A%253Carticle%2520class%253D%2522snackbar%2520snackbar--baseline%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar__text%2522%253ECan%27t%2520send%2520photos.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar__button%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522snackbar__cancel%2522%253E%2526%252310006%253B%253C%252Fi%253E%250A%253C%252Farticle%253E%250A%250A%253Carticle%2520class%253D%2522snackbar%2520snackbar--trailing%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar__text%2522%253ECan%27t%2520send%2520photos.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar__button%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522snackbar__cancel%2522%253E%2526%252310006%253B%253C%252Fi%253E%250A%253C%252Farticle%253E"
+                            style="width: 633px; height: 609px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
+                    Stacked Snackbar
+                </div>
+                <p>
+                    Stacked snackbars have rows. Any sub-component can utilise a whole row if used with .snackbar__row
+                    class.
+                    Use snackbar--stacked along with the base class snackbar.
+                </p>
+                <div class="component-div p--1 m--2">
+                    <button id="stackedBtn" class="btn--primary">Snackbar Stacked</button>
+
+                    <article class="snackbar snackbar--baseline snackbar--stacked">
+                        <p class="snackbar__text snackbar__row">Can't send photos. Retry in 5 seconds.</p>
+                        <button class="snackbar__button">RETRY</button>
+                        <i class="snackbar__cancel">&#10006;</i>
+                    </article>
+                </div>
+
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Carticle%2520class%253D%2522snackbar%2520snackbar--baseline%2520snackbar--stacked%2522%253E%250A%2509%253Cp%2520class%253D%2522snackbar__text%2520snackbar__row%2522%253ECan%27t%2520send%2520photos.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2509%253Cbutton%2520class%253D%2522snackbar__button%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522snackbar__cancel%2522%253E%2526%252310006%253B%253C%252Fi%253E%250A%253C%252Farticle%253E%250A"
+                            style="width: 633px; height: 345px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
         </main>
     </div>
 
     <script src="../javascript/docs.js"></script>
+    <script src="../javascript/badge.js"></script>
+    <script src="../javascript/ratings.js"></script>
+    <script src="../javascript/sidebar.js"></script>
+    <script src="../javascript/snackbar.js"></script>
 </body>
 
 </html>

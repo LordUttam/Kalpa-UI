@@ -14,3 +14,64 @@
 @import "./lists.css";
 @import "./margin-padding.css";
 @import "./flex.css";
+@import "./ratings.css";
+@import "./snackbar.css";
+
+body {
+  font-family: Roboto, sans-serif;
+  overflow-anchor: none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg--primary {
+  background-color: var(--primary-color);
+}
+
+.color--primary {
+  color: var(--primary-color);
+}
+
+.color--accent {
+  color: var(--accent-color);
+}
+
+.bg--white {
+  background-color: var(--base-color);
+}
+
+.bg--black {
+  background-color: var(--neutral-color);
+}
+
+.bg--light,
+.bg--secondary {
+  background-color: var(--secondary-bg-color);
+}
+
+.border--accent {
+  border-color: var(--accent-color);
+}
+
+.border--primary {
+  border-color: var(--primary-color);
+}
+
+.border--transparent {
+  border-color: transparent;
+}
+
+.border--white {
+  border-color: var(--base-color);
+}
+
+.shadow--none {
+  box-shadow: none;
+}
+
+.shadow-hover--none:hover {
+  box-shadow: none;
+}

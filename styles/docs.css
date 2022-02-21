@@ -260,7 +260,7 @@ body {
   .header__title h2 {
     font-size: 1.25rem;
   }
-  
+
   .header--fixed ul li {
     font-size: 1.25rem;
   }
@@ -269,7 +269,7 @@ body {
   #installation {
     margin: 0 1rem;
   }
-  
+
   #installation {
     flex-wrap: wrap;
     height: 63vh;
@@ -343,5 +343,17 @@ body {
 @media only screen and (min-width: 768px) {
   .drawer__sidebar--perm h1 {
     font-size: 1.2rem;
+  }
+  .drawer__sidebar--perm ul li a {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .drawer__sidebar--perm h1 {
+    font-size: 1.5rem;
+  }
+  .drawer__sidebar--perm ul li a {
+    font-size: 1rem;
   }
 }

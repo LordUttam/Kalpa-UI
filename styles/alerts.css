@@ -1,55 +1,52 @@
 .alert {
-    width: 100%;
-    display: flex;
-    padding: 0.75rem 1rem;
-    margin: 1rem;
-    align-items: center;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    max-width: 50rem;
+  width: 100%;
+  display: flex;
+  padding: 0.75rem;
+  margin: 1rem;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  max-width: 50rem;
 }
 
 .alert--primary {
-    background-color: var(--secondary-bg-color);
-    color: var(--primary-color);
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-color);
 }
 
 .alert--outline {
-    background-color: transparent;
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .alert--warning {
-    background-color: var(--warning-color);
-    color: var(--warning-color);
+  background-color: var(--warning-color);
+  color: var(--warning-color);
 }
 
 .alert--success {
-    background-color: var(--success-color);
-    color: var(--success-color);
+  background-color: var(--success-color);
+  color: var(--success-color);
 }
 
 .alert--error {
-    background-color: var(--error-color);
-    color: var(--error-color);
+  background-color: var(--error-color);
+  color: var(--error-color);
 }
 
 .alert__text {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .alert--warning > .alert__text {
-    color: var(--neutral-color);
+  color: var(--neutral-color);
 }
 
 .alert--error > .alert__text {
-    color: var(--neutral-color);
+  color: var(--neutral-color);
 }
 
 .alert--success > .alert__text {
-    color: var(--neutral-color);
+  color: var(--neutral-color);
 }
-
-
-

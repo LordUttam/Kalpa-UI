@@ -204,6 +204,10 @@ h2 {
   box-shadow: var(--primary-box-shadow);
 }
 
+.install-div--mobile {
+  display: none;
+}
+
 .btn--outline:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -276,4 +280,98 @@ h2 {
 
 .ui {
   color: var(--accent-color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header__logo img {
+    width: 3rem;
+  }
+  .header__title h2 {
+    font-size: 1.25rem;
+  }
+  .header--fixed ul li {
+    font-size: 1.25rem;
+  }
+  .main__text,
+  #installation {
+    margin: 0 1rem;
+  }
+  #installation {
+    flex-wrap: wrap;
+    height: 63vh;
+  }
+
+  #installation {
+    width: 90%;
+    margin: 0 1rem;
+  }
+  .main__logo {
+    width: 5rem;
+  }
+  .main__text {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  #installation .install-div--large {
+    display: none;
+  }
+
+  #installation .install-div--mobile {
+    display: inline-block;
+    width: 90%;
+    height: max-content;
+    word-wrap: break-word;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main__logo {
+    width: 5rem;
+  }
+  .main__text {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  #installation {
+    flex-wrap: wrap;
+    height: 80vh;
+  }
+
+  #installation .install-div--mobile {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #installation {
+    flex-wrap: wrap;
+    height: 80vh;
+  }
+  .main__logo {
+    width: 7rem;
+  }
+  .main__text {
+    font-size: 1.5rem;
+  }
+
+  #installation .install-div--mobile {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #installation {
+    width: 90%;
+    margin: 0 1rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

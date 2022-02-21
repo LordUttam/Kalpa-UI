@@ -293,7 +293,7 @@ body {
     margin: 2rem auto;
   }
 
-  .sidebar-btn {
+  .menu__btn {
     position: fixed;
     z-index: 10;
     bottom: 0;

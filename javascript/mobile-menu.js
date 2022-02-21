@@ -1,5 +1,5 @@
 const mobileMenu = document.querySelector(".menu--mobile");
-const sidebarBtn = document.querySelector(".sidebar-btn");
+const sidebarBtn = document.querySelector(".menu__btn");
 const mobileMenuLinks = document.querySelectorAll(".menu--mobile ul li a");
 
 sidebarBtn.addEventListener("click", () => {

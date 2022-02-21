@@ -2,10 +2,13 @@
 
 A component library to shorten the development time of your website.
 
-#Landing page
+# Landing page
 ![image](https://user-images.githubusercontent.com/47154785/154998143-82870b5d-1b05-48bf-86e1-7c582d7854da.png)
 
+
 # Installation Steps
+![image](https://user-images.githubusercontent.com/47154785/154999406-6f5e0868-3837-4a49-a07b-5a03072dcc94.png)
+
 
 Copy the link from the installation section (also given below) and paste in your head tag of html file.
 

@@ -17,6 +17,7 @@
 @import "./ratings.css";
 @import "./snackbar.css";
 @import "./modal.css";
+@import "./navigation.css";
 
 body {
   font-family: Roboto, sans-serif;

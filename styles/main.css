@@ -16,6 +16,7 @@
 @import "./flex.css";
 @import "./ratings.css";
 @import "./snackbar.css";
+@import "./modal.css";
 
 body {
   font-family: Roboto, sans-serif;

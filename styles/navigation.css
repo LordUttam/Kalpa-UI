@@ -34,13 +34,10 @@
 
 .topnav__btn {
   position: relative;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   max-width: 100%;
-
   border-radius: 50%;
   color: white;
   font-size: 1.5rem;
@@ -93,10 +90,8 @@ div.input__container {
 .search__btn {
   display: flex;
   align-items: center;
-
   margin: 0;
   padding: 5px;
-
   border-radius: 0 0.5rem 0.5rem 0;
   border: 2px solid var(--base-color);
   background-color: var(--base-color);

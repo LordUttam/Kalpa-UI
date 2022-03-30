@@ -103,6 +103,11 @@
                     <span class="title">Modal</span>
                 </a>
             </li>
+            <li class="p--2">
+                <a href="#grids">
+                    <span class="title">Grids</span>
+                </a>
+            </li>
     </div>
 
     <div class="page-layout">
@@ -175,6 +180,11 @@
                 <li class="p__l--0-5">
                     <a href="#topnav">
                         <span class="title">Topnav</span>
+                    </a>
+                </li>
+                <li class="p__l--0-5">
+                    <a href="#grids">
+                        <span class="title">Grids</span>
                     </a>
                 </li>
             </ul>
@@ -1330,7 +1340,7 @@
             <article class="main__content">
                 <p>Navbars are one of the most important part of a website.
                     Here user will find the links/buttons where he want to go or access easily.
-                    You can use the 'topnav' class to create a top navigation bar.
+                    You can use the 'topnav__container--std' class to create a standard top navigation bar.
                 </p>
                 <div class="component-div p--1 m--2">
                     <article class="topnav__container--std">
@@ -1345,14 +1355,21 @@
                                 <button class="search__btn"><i class="bx bx-search"></i></button>
                             </div>
                             <ul class="topnav__list--align-end">
-                                <li class="color--primary topnav__btn m--x-0-5"><a href="#"
-                                        class="p--x-1 flex items--center">Login</a>
+                                <li class="color--primary topnav__btn m--x-0-5">
+                                    <a href="#" class="p--x-1 flex items--center">Login</a>
                                 </li>
-                                <li class="topnav__btn m--x-0-5"><a href="#" class="p--x-1 flex items--center"><i
-                                            class="bx bxs-heart"></i>Wishlist</a>
+                                <li class="topnav__btn m--x-0-5">
+                                    <a href="#" class="p--x-1 flex items--center">
+                                        <i class="bx bxs-heart"></i>
+                                        Wishlist
+                                    </a>
                                 </li>
-                                <li class="topnav__btn m--x-0-5"> <a href="#" class="p--x-1 flex items--center"><i
-                                            class="bx bxs-cart"></i>Cart</a></li>
+                                <li class="topnav__btn m--x-0-5">
+                                    <a href="#" class="p--x-1 flex items--center">
+                                        <i class="bx bxs-cart"></i>
+                                        Cart
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
                     </article>
@@ -1368,6 +1385,69 @@
                     </div>
                 </div>
             </article>
+
+            <h1 class="main__heading p--1" id="grids">
+                Grids
+            </h1>
+            <article class="main__content">
+                <p>
+                    Grid Layout (aka “Grid” or “CSS Grid”), is a two-dimensional grid-based layout system that, compared
+                    to any web layout system of the
+                    past, completely changes the way we design user interfaces.
+                </p>
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
+                    Grid with two items in a row
+                </div>
+                <p>
+                    Grid component can be used with 'grid--two' class as a container.
+                </p>
+                <div class="component-div p--1 m--2">
+                    <div class="grid--two">
+                        <div class="box border--transparent bg--accent m--1">Box-1</div>
+                        <div class="box border--transparent bg--accent m--1">Box-2</div>
+                        <div class="box border--transparent bg--accent m--1">Box-3</div>
+                        <div class="box border--transparent bg--accent m--1">Box-4</div>
+                        <div class="box border--transparent bg--accent m--1">Box-5</div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=700&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid--two%2522%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 700px; height: 307px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
+                    Grid with three items in a row
+                </div>
+                <p>
+                    Grid component can be used with 'grid--three' class as a container.
+                </p>
+                <div class="component-div p--1 m--2">
+                    <div class="grid--three">
+                        <div class="box border--transparent bg--accent m--1">Box-1</div>
+                        <div class="box border--transparent bg--accent m--1">Box-2</div>
+                        <div class="box border--transparent bg--accent m--1">Box-3</div>
+                        <div class="box border--transparent bg--accent m--1">Box-4</div>
+                        <div class="box border--transparent bg--accent m--1">Box-5</div>
+                        <div class="box border--transparent bg--accent m--1">Box-6</div>
+                        <div class="box border--transparent bg--accent m--1">Box-7</div>
+                        <div class="box border--transparent bg--accent m--1">Box-8</div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=700&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid--three%2522%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-1%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-2%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-3%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-4%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-5%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-6%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-7%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-8%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 700px; height: 368px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+
         </main>
     </div>
 

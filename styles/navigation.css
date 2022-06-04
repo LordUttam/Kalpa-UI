@@ -1,0 +1,105 @@
+.topnav__container--std {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: var(--primary-color);
+  transition: top 0.2s ease-in-out;
+}
+
+.topnav__container--std .nav--std {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+
+.topnav__container--std ul {
+  list-style: none;
+  display: inline-flex;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.topnav__list--align-start {
+  justify-content: flex-start;
+}
+
+.topnav__list--align-end {
+  justify-content: flex-end;
+}
+
+.topnav__title a {
+  color: var(--base-color);
+}
+
+.topnav__btn {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.topnav__btn a {
+  height: 4rem;
+  color: var(--base-color);
+}
+
+.topnav__container--std .topnav__title {
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: var(--base-color);
+}
+
+.topnav__logo img {
+  width: 6rem;
+}
+
+.topnav__btn i {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  margin: 0 4px;
+}
+
+.topnav__btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.search__container {
+  width: fit-content;
+}
+
+div.input__container {
+  width: 80%;
+}
+
+.topnav__container--std .input {
+  height: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.search__btn {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px;
+  border-radius: 0 0.5rem 0.5rem 0;
+  border: 2px solid var(--base-color);
+  background-color: var(--base-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.search__btn i {
+  margin: none;
+}

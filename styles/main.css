@@ -16,6 +16,9 @@
 @import "./flex.css";
 @import "./ratings.css";
 @import "./snackbar.css";
+@import "./modal.css";
+@import "./navigation.css";
+@import "./grids.css";
 
 body {
   font-family: Roboto, sans-serif;
@@ -50,6 +53,10 @@ a {
 .bg--light,
 .bg--secondary {
   background-color: var(--secondary-bg-color);
+}
+
+.bg--accent {
+  background-color: var(--accent-color);
 }
 
 .border--accent {

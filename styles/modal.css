@@ -1,0 +1,36 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  max-height: 360px;
+  width: 15rem;
+  background-color: var(--background-color);
+  box-shadow: var(--secondary-box-shadow);
+  border-radius: 4px;
+}
+
+.modal .modal__header {
+  padding: 4px 1.2rem 0.5rem;
+}
+
+.modal__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.modal__cancel {
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal .modal__subtitle {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+}
+
+.modal .modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}

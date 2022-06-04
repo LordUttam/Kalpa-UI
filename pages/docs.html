@@ -98,6 +98,16 @@
                     <span class="title">Snackbar</span>
                 </a>
             </li>
+            <li class="p--2">
+                <a href="#modal">
+                    <span class="title">Modal</span>
+                </a>
+            </li>
+            <li class="p--2">
+                <a href="#grids">
+                    <span class="title">Grids</span>
+                </a>
+            </li>
     </div>
 
     <div class="page-layout">
@@ -163,8 +173,18 @@
                     </a>
                 </li>
                 <li class="p__l--0-5">
+                    <a href="#modal">
+                        <span class="title">Modal</span>
+                    </a>
+                </li>
+                <li class="p__l--0-5">
                     <a href="#topnav">
                         <span class="title">Topnav</span>
+                    </a>
+                </li>
+                <li class="p__l--0-5">
+                    <a href="#grids">
+                        <span class="title">Grids</span>
                     </a>
                 </li>
             </ul>
@@ -1278,6 +1298,156 @@
                     </div>
                 </div>
             </article>
+
+            <h1 class="main__heading p--1" id="modal">
+                Modal
+            </h1>
+            <article class="main__content">
+                <p>Modals are usually used for telling users to choose among one or two required actions, or to showcase
+                    any important information. You can use it with 'modal' and add subcomponents using 'modal__header',
+                    'modal__subtitle',
+                    and 'modal__actions'
+                </p>
+                <div class="component-div p--1 m--2">
+                    <article class="modal p__t--1">
+                        <div class="modal__header flex justify--between">
+                            <span class="modal__title">Alert modal</span>
+                            <i class="modal__cancel">&#10006;</i>
+                        </div>
+                        <p class="modal__subtitle">modal Body Text</p>
+                        <footer class="modal__actions">
+                            <button class="btn btn--link">Action 1</button>
+                            <button class="btn btn--link">Action 2</button>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=633.0625&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=163%25&si=false&es=2x&wm=false&code=%253Carticle%2520class%253D%2522modal%2520p__t--1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal__header%2520flex%2520justify--between%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522modal__title%2522%253EAlert%2520modal%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522modal__cancel%2522%253E%2526%252310006%253B%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522modal__subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520modal%2520Body%2520Text%250A%2520%2520%2509%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522modal__actions%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn--link%2522%253EAction%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--link%2522%253EAction%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Ffooter%253E%250A%253C%252Farticle%253E"
+                            style="width: 633px; height: 455px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+
+
+            <h1 class="main__heading p--1" id="topnav">
+                Navigation
+            </h1>
+            <article class="main__content">
+                <p>Navbars are one of the most important part of a website.
+                    Here user will find the links/buttons where he want to go or access easily.
+                    You can use the 'topnav__container--std' class to create a standard top navigation bar.
+                </p>
+                <div class="component-div p--1 m--2">
+                    <article class="topnav__container--std">
+                        <nav class="nav--std flex__wrap--wrap">
+                            <ul class="topnav__list--align-start">
+                                <li class="topnav__title"><a href="#">Padhaku</a></li>
+                            </ul>
+                            <div class="search__container flex items--center justify--center">
+                                <div class="input__container flex--inline">
+                                    <input type="text" class="input" placeholder="Search Here">
+                                </div>
+                                <button class="search__btn"><i class="bx bx-search"></i></button>
+                            </div>
+                            <ul class="topnav__list--align-end">
+                                <li class="color--primary topnav__btn m--x-0-5">
+                                    <a href="#" class="p--x-1 flex items--center">Login</a>
+                                </li>
+                                <li class="topnav__btn m--x-0-5">
+                                    <a href="#" class="p--x-1 flex items--center">
+                                        <i class="bx bxs-heart"></i>
+                                        Wishlist
+                                    </a>
+                                </li>
+                                <li class="topnav__btn m--x-0-5">
+                                    <a href="#" class="p--x-1 flex items--center">
+                                        <i class="bx bxs-cart"></i>
+                                        Cart
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </article>
+                </div>
+
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=700&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522topnav__container--std%2522%253E%250A%2509%253Cnav%2520class%253D%2522nav--std%2520flex__wrap--wrap%2522%253E%250A%2509%2509%253Cul%2520class%253D%2522topnav__list--align-start%2522%253E%250A%2509%2509%2509%253Cli%2520class%253D%2522topnav__title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EPadhaku%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fli%253E%250A%2509%2509%253C%252Ful%253E%250A%2509%253Cdiv%2520class%253D%2522search__container%2520flex%2520items--center%2520justify--center%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522input__container%2520flex--inline%2522%253E%250A%2509%2509%2509%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Search%2520Here%2522%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522search__btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522bx%2520bx-search%2522%253E%253C%252Fi%253E%2509%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cul%2520class%253D%2522topnav__list--align-end%2522%253E%250A%2509%2509%253Cli%2520class%253D%2522color--primary%2520topnav__btn%2520m--x-0-5%2522%253E%250A%2509%2509%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522p--x-1%2520flex%2520items--center%2522%253ELogin%253C%252Fa%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522topnav__btn%2520m--x-0-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522p--x-1%2520flex%2520items--center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522bx%2520bxs-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522topnav__btn%2520m--x-0-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522p--x-1%2520flex%2520items--center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522bx%2520bxs-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2509%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%2509%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+                            style="width: 700px; height: 983px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+
+            <h1 class="main__heading p--1" id="grids">
+                Grids
+            </h1>
+            <article class="main__content">
+                <p>
+                    Grid Layout (aka “Grid” or “CSS Grid”), is a two-dimensional grid-based layout system that, compared
+                    to any web layout system of the
+                    past, completely changes the way we design user interfaces.
+                </p>
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
+                    Grid with two items in a row
+                </div>
+                <p>
+                    Grid component can be used with 'grid--two' class as a container.
+                </p>
+                <div class="component-div p--1 m--2">
+                    <div class="grid--two">
+                        <div class="box border--transparent bg--accent m--1">Box-1</div>
+                        <div class="box border--transparent bg--accent m--1">Box-2</div>
+                        <div class="box border--transparent bg--accent m--1">Box-3</div>
+                        <div class="box border--transparent bg--accent m--1">Box-4</div>
+                        <div class="box border--transparent bg--accent m--1">Box-5</div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=700&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid--two%2522%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 700px; height: 307px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="main__sub-heading m--y-1 m--x-0 p--1">
+                    Grid with three items in a row
+                </div>
+                <p>
+                    Grid component can be used with 'grid--three' class as a container.
+                </p>
+                <div class="component-div p--1 m--2">
+                    <div class="grid--three">
+                        <div class="box border--transparent bg--accent m--1">Box-1</div>
+                        <div class="box border--transparent bg--accent m--1">Box-2</div>
+                        <div class="box border--transparent bg--accent m--1">Box-3</div>
+                        <div class="box border--transparent bg--accent m--1">Box-4</div>
+                        <div class="box border--transparent bg--accent m--1">Box-5</div>
+                        <div class="box border--transparent bg--accent m--1">Box-6</div>
+                        <div class="box border--transparent bg--accent m--1">Box-7</div>
+                        <div class="box border--transparent bg--accent m--1">Box-8</div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <div class="component-code-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28216%2C225%2C255%2C1%29&t=theme%3Aap7qpqk54lo&wt=none&l=htmlmixed&width=700&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid--three%2522%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-1%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-2%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-3%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-4%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-5%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-6%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-7%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522box%2520border--accent%2520bg--secondary%2520m--1%2522%253EBox-8%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 700px; height: 368px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+
         </main>
     </div>
 
